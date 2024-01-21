@@ -93,7 +93,7 @@ a
     width: 60px;
     height: 60px;
     border-radius: 999px;
-    border: 2px solid #5aa5b9;
+    border: 2px solid #7cf66c;
     object-fit: cover;
 }
 .header .navbar__list
@@ -208,7 +208,7 @@ a
     height: 70px;
     object-fit: cover;
     border-radius: 50%;
-    border: 3px solid #7cf66c;
+    border: 3px solid #5aa5b9;
 }
 .card__content .card__title
 {
