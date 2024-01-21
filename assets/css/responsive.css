@@ -106,6 +106,10 @@
         font-weight: 500;
         font-size: 2rem;
     }
+    .list-projects .card__project
+    {
+        height: 470px;
+    }
 }
 /* Tablet */
 @media  screen and (min-width: 768px) and (max-width: 991px)

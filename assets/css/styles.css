@@ -93,7 +93,7 @@ a
     width: 60px;
     height: 60px;
     border-radius: 999px;
-    border: 2px solid #7cf66c;
+    border: 2px solid #85bd7d;
     object-fit: cover;
 }
 .header .navbar__list
@@ -177,12 +177,12 @@ a
 /* End Hero */
 
 /* Start list card */
-.list-card
+.list
 {
     padding: 70px 0;
     background-color: #F8FAFD;
 }
-.list-card .card__item
+.list .card__item
 {
     background-color: #FFFEFD;
     padding: 15px;
@@ -190,13 +190,13 @@ a
     border-radius: 30px;
     height: 390px;
 }
-.list-card .card__item:hover
+.list .card__item:hover
 {
     border-color: #fff;
     box-shadow: 0px 14px 28px rgba(0, 0, 0, 0.1);
     transition: all 0.5s;
 }
-.list-card .card__head
+.list .card__head
 {
     display: flex;
     align-items: center;
@@ -236,7 +236,7 @@ a
     line-height: 1.4;
     color: #737373;
 }
-.list-card .list-skill
+.list .list-skill
 {
     margin-top: 10px;
     display: flex;
@@ -244,18 +244,18 @@ a
     gap: 15px;
     align-items: center;
 }
-.card__inner
+.list .card__inner
 {
     height: 135px;
     margin: 10px 0;
 }
-.list-card .skill__inner
+.list .skill__inner
 {
     padding: 10px;
     background-color: #e6faff;
     border-radius: 15px;
 }
-.list-card .skill .skill__title
+.list .skill .skill__title
 {
     max-width: 80px;
     text-align: center;
@@ -264,3 +264,92 @@ a
     color: #5aa5b9;
 }
 /* End list card */
+
+
+
+
+
+/*Start Projects */
+
+.list-projects
+{
+    padding: 50px 0;
+}
+.list-projects .card__project
+{
+    height: 440px;
+    border-radius: 15px;
+    border: 2px solid #e5e7eb;
+    overflow: hidden;
+}
+.list-projects .card__project:hover
+{
+    border-color: #fff;
+    box-shadow: 0px 14px 28px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s;
+}
+.list-projects .card__project .card__inner
+{
+    padding: 5px 10px;
+}
+.list-projects .card__img-thumb
+{
+    height: 230px;
+    overflow: hidden;
+}
+.list-projects .card__project .img-project
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: 0.5s ease;
+}
+.list-projects .card__project .img-project:hover
+{
+    transform: scale(1.2);
+}
+.card__project .card__inner .name
+{
+    font-weight: 700;
+    font-size: 2rem;
+    color: #2d2d39;
+    line-height: 1.5;
+}
+.card__project .owner a
+{
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #5aa5b9;
+    font-style: italic;
+    line-height: 1.5;
+}
+.card__project .feedback
+{
+    margin: 10px 0;
+    font-size: 1.8rem;
+    color: #737373;
+    line-height: 1.44;
+}
+.list-projects .skill
+{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.list-projects .skill__inner
+{
+    padding: 10px;
+    background-color: #e6faff;
+    border-radius: 15px;
+}
+.list-projects .skill .skill__title
+{
+    max-width: 80px;
+    text-align: center;
+    font-size: 1.35rem;
+    line-height: 1.4;
+    color: #5aa5b9;
+}
+
+/* End Projects */
