@@ -88,6 +88,14 @@ a
     height: 80px;
     width: 80px;
 }
+.header__inner .logo-account
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 999px;
+    border: 2px solid #5aa5b9;
+    object-fit: cover;
+}
 .header .navbar__list
 {
     display: flex;
