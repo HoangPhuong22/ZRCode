@@ -281,12 +281,12 @@ a
     border-radius: 15px;
     border: 2px solid #e5e7eb;
     overflow: hidden;
+    transition: 0.9s ease;
 }
 .list-projects .card__project:hover
 {
     border-color: #fff;
     box-shadow: 0px 14px 28px rgba(0, 0, 0, 0.1);
-    transition: all 0.5s;
 }
 .list-projects .card__project .card__inner
 {
