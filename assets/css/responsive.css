@@ -151,7 +151,7 @@
     {
         margin-top: 40px;
     }
-    .hero-search form .input.input[type='text'],.input.input[type='email'], .input.input[type='password'], .input.input[type='number'], textarea.input 
+    .hero-search form .input.input[type='text'],.input.input[type='email'], .input.input[type='password'], .input.input[type='number']
     {
         font-size: 14px;
         width: 25rem;
@@ -179,6 +179,37 @@
     {
         height: 60px;
         width: 60px;
+    }
+    .main__projects .img__projects
+    {
+        height: 300px;
+    }
+    .main__projects .content__name
+    {
+        padding: 10px 5px;
+    }
+    .main__projects .content__name .owner-project
+    {
+        font-size: 1.7rem;
+    }
+    .main__projects .content__name .project-name
+    {
+        font-size: 3rem;
+    }
+    .main__projects .title
+    {
+        padding: 10px;
+        font-size: 2rem;
+        line-height: 1.3;
+    }
+    .main__projects .skill
+    {
+        padding: 10px 5px;
+        border-radius: 9999px;
+    }
+    .main__projects .skill .skill__name
+    {
+        font-size: 1.3rem;
     }
 }
 .row
