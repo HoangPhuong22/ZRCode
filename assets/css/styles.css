@@ -173,7 +173,7 @@ a
 textarea.input:focus,
 .input.input[type='text']:focus
 {
-    border-color: #f18f66;
+    border-color: #5aa5b9;
 }
 /* End Hero */
 
@@ -458,6 +458,8 @@ textarea.input:focus,
 {
     min-height: 14rem;
     resize: none;
+    font-size: 1.5rem;
+    color: #737373;
 }
 .feedback .btn-submit
 {

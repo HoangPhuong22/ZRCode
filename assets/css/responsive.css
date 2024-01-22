@@ -211,6 +211,16 @@
     {
         font-size: 1.3rem;
     }
+    .comment-name
+    {
+        font-weight: 500;
+        font-size: 1.6rem;
+    }
+    .comment-desc
+    {
+        font-size: 1.4rem;
+        line-height: 1.6;
+    }
 }
 .row
 {
