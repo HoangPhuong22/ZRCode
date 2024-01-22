@@ -760,3 +760,167 @@ textarea.input:focus,
     margin-top: 30px;
 }
 /* End Account */
+
+
+
+/* Start Inbox */
+
+.message
+{
+    background-color: #F8FAFD;
+}
+.message-content
+{
+    margin: 0 auto;
+    padding: 100px;
+}
+.message-content .title-message
+{
+    font-size: 2.4rem;
+    font-weight: 900;
+    color: #2d2d39;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 3rem;
+}
+.message-content .title-message span
+{
+    color :#5aa5b9;
+}
+.list-message
+{
+    padding: 10px 25px;
+    background-color: #FFFEFD;
+    border: 2px solid #E5E7EB;
+    border-radius: 10px;
+}
+
+.message-content .message__inner a
+{
+    display: flex;
+    gap: 10px;
+    padding: 15px 0;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #E5E7EB;
+}
+.message-content .owner
+{
+    width: 15%;
+}
+.message-content .content
+{
+    width: 70%;
+}
+.message-content .date
+{
+    width: 25%;
+}
+.message-content .owner ,
+.message-content .content,
+.message-content .date
+{
+    font-size: 1.7rem;
+    color: #2d2d39;
+    line-height: 1.6;
+    font-weight: 400;
+}
+.message__inner.no-message a span
+{
+    font-weight: 700;
+}
+
+
+
+/* End Inbox */
+
+/* Start Login */
+
+.login
+{
+    background-color: #F8FAFD;
+    padding: 30px 0;
+    height: 100vh;
+}
+.login__inner
+{
+    padding: 30px 20px;
+    background-color: #FFFEFD;
+    border-radius: 10px;
+    border: 2px solid #E5E7EB;
+}
+.login__inner .logo-login
+{
+    display: flex;
+    justify-content: center;
+}
+.login__inner i
+{
+    font-size: 6rem;
+}
+.login__inner .login-title
+{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 900;
+    color: #2d2d39;
+    line-height: 1.6;
+}
+.login__inner .login-desc
+{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #737373;
+    line-height: 1.6;
+}
+form label
+{
+    font-size: 1.5rem;
+    padding: 10px 0;
+    display: block;
+    color: #737373;
+}
+.input
+{
+    font-size: 1.5rem;
+    color: #737373;
+}
+.login-submit
+{
+    margin-top: 10px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login-submit .btn-submit
+{
+    background-color: #152039;
+    padding: 15px 20px;
+    border-radius: 10px;
+    line-height: 1.4;
+}
+.login-submit .forget a
+{
+    text-decoration: underline;
+    font-size: 1.6rem;
+    color: #5aa5b9;
+    font-weight: 500;
+    line-height: 1.4;
+}
+.auth .auth-title
+{
+    color: #51546e;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6;
+    padding: 10px 0;
+}
+.auth a
+{
+    color: #5aa5b9;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.6;
+}
+/* End Login */

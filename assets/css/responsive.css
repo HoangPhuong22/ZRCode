@@ -9,6 +9,13 @@
     padding-left: 15px;
     padding-right: 15px
 }
+.container-form
+{
+    min-width: 400px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 /* PC */
 @media screen and (min-width: 992px)
 {
@@ -155,17 +162,6 @@
     .hero-search
     {
         margin-top: 40px;
-    }
-    .hero-search form .input.input[type='text'],.input.input[type='email'], .input.input[type='password'], .input.input[type='number']
-    {
-        font-size: 14px;
-        width: 25rem;
-        padding: 12px 12px;
-        border-radius: 0.5rem;
-        border: 2px solid #fff;
-        transition: all 0.3s ease-in-out;
-        background-color: #fff;
-        outline: none;
     }
     .btn {
         --height: 45px;
@@ -337,6 +333,10 @@
     .container
     {
         max-width: 540px;
+    }
+    .container-form
+    {
+        min-width: 500px;
     }
     .col-sm-1
     {
