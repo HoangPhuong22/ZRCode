@@ -504,3 +504,102 @@ textarea.input:focus,
     color: #51546E;
 }
 /* End Projects Detail */
+
+
+/* Start Account */
+.account
+{
+    padding: 30px 0;
+    background-color: #F8FAFD;
+}
+.account .account__inner
+{
+    padding: 20px 10px;
+    background-color: #FFFEFD;
+    border: 2px solid #E5E7EB;
+    border-radius: 30px;
+}
+.account .account__inner .edit-link
+{
+    justify-content: center;
+    display: flex;
+    padding: 15px 0;
+}
+.account .account__inner .edit-link a
+{
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #e5e7eb;
+    border-radius: 999px;
+    background-color: #152039;
+    font-size: 1.4rem;
+    color: #e9e9e9;
+}
+.account .account__inner .edit-link i
+{
+    margin-right:5px;
+}
+.account .account__inner .logo-acount
+{
+   width: 200px;
+   height: 200px;
+   margin: 0 auto;
+   object-fit: cover;
+   border: 2px solid #5aa5b9;
+   border-radius: 999px;
+   display: block;
+}
+.account .account__inner .username
+{
+    font-weight: 700;
+    line-height: 1.6;
+    color: #2D2D39;
+    font-size: 3rem;
+    text-align: center;
+}
+.account .account__inner .bio
+{
+    padding: 0 20px;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.3;
+    color: #737373;
+}
+.account .account__inner .location
+{
+    margin-top: 10px;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 1.3;
+    color: #737373;
+}
+.account .account__inner .location i
+{
+    margin-right: 10px;
+    color: #152039;
+}
+.account .account__inner .link__social
+{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+.account .account__inner .link__social i
+{
+    color: #152039;
+    font-size: 1.9rem;
+}
+.account .account__inner .btn-submit
+{
+    display: block;
+    margin: 40px auto 20px auto;
+    background-color: #152039;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+/* End Account */
