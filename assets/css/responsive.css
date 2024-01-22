@@ -110,11 +110,16 @@
     {
         height: 470px;
     }
+    .account .account__content {
+        margin-left: 0;
+    }
 }
 /* Tablet */
 @media  screen and (min-width: 768px) and (max-width: 991px)
 {
-    
+    .account .account__content {
+        margin-left: 0;
+    }
 }
 /* Mobile */
 @media screen and (max-width: 767px)
@@ -234,6 +239,15 @@
     .skill__row .row
     {
         row-gap: 10px;
+    }
+    .account .account__content {
+        margin-left: 0;
+    }
+    .ed__inner
+    {
+        display: flex;
+        gap: 30px;
+        margin-top: 0;
     }
 }
 .row
