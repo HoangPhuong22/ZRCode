@@ -471,6 +471,7 @@ textarea.input:focus,
 }
 .comment__inner
 {
+    padding: 15px 0;
     display: flex;
     align-items: flex-start;
     column-gap: 15px;
@@ -482,6 +483,10 @@ textarea.input:focus,
     object-fit: cover;
     border-radius: 50%;
     border: 2px solid #5aa5b9;
+}
+.comment-content
+{
+    padding: 0 10px;
 }
 .comment-name
 {
