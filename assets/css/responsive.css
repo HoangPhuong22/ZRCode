@@ -7,7 +7,13 @@
     width: 100%;
     margin: 0 auto;
     padding-left: 15px;
-    padding-right: 15px
+    padding-right: 15px;
+}
+.pagination
+{
+    width: 90%;
+    margin: 0 auto;
+    padding: 30 15px;
 }
 .container-form
 {
@@ -275,6 +281,33 @@
     {
         font-size: 1.4rem;
     }
+    .delete__desc
+    {
+        font-size: 1.5rem;
+        margin: 10px 0;
+    }
+    .message-inner .message__title
+    {
+        font-size: 2.3rem;
+        padding-bottom: 10px;
+    }
+    .message-inner
+    {
+        margin-top: 5px;
+    }
+    .message-inner .owner__message
+    {
+        font-size: 1.7rem;
+    }
+    .message-inner .date__message,
+    .message-inner .message__desc
+    {
+        font-size: 1.4rem;
+    }
+    .message-inner .back i
+    {
+        padding-top: 10px;
+    }
 }
 .row
 {
@@ -360,6 +393,11 @@
 }
 @media (min-width: 576px)
 {
+    .pagination
+    {
+        width: 90%;
+        padding: 30px 0;
+    }
     .container
     {
         max-width: 540px;
@@ -443,6 +481,11 @@
 }
 @media (min-width: 768px)
 {
+    .pagination
+    {
+        width: 80%;
+        padding: 70px 30px;
+    }
     .container
     {
         max-width: 720px;
@@ -522,6 +565,10 @@
 }
 @media (min-width: 992px)
 {
+    .pagination
+    {
+        width: 77%;
+    }
     .container
     {
         max-width: 960px;
@@ -601,6 +648,10 @@
 }
 @media (min-width: 1200px)
 {
+    .pagination
+    {
+        width: 72%;
+    }
     .container
     {
         max-width: 1170px;

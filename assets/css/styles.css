@@ -927,3 +927,124 @@ form label
     line-height: 1.6;
 }
 /* End Login */
+
+
+/* Delete */
+
+.delete__inner
+{
+    background-color: #FFFEFD;
+    padding: 40px;
+    border: 1px solid #E5E7EB;
+    border-radius: 30px;
+}
+.logo-delete
+{
+    display: flex;
+    justify-content: center;
+}
+.logo-delete i
+{
+    font-size: 5rem;
+}
+.delete__desc
+{
+    color: #737373;
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+    margin: 30px 0;
+}
+.delete__inner .btn-submit
+{
+    border-radius: 10px;
+    background-color: #152039;
+}
+.btn__inner
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Message */
+.logo__message
+{
+    display: flex;
+    justify-content: center;
+}
+.logo__message i
+{
+    font-size: 5rem;
+    color: #152039;
+}
+.message-inner
+{
+    margin-top: 15px;
+}
+.message-inner .message__title
+{
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: #2d2d39;
+    padding: 20px 0;
+}
+.message-inner .owner__message
+{
+    font-size: 1.9rem;
+    color: #5aa5b9;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.message-inner .date__message
+{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #737373;
+    margin-bottom: 10px;
+}
+.message-inner .message__desc
+{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #737373;
+    line-height: 1.6;
+}
+.message-inner .back i
+{
+    display: inline-block;
+    color: #152039;
+    font-size: 3rem;
+    padding-top: 30px;
+}
+
+/* Page */
+.home
+{
+    background-color: #F8FAFD;
+}
+ul.container
+{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.btn-page
+{
+    display: inline-block;
+    height: 50px;
+    min-width: 60px;
+    text-align: center;
+    padding: 0 15px;
+    background-color: #E8EAEE;
+    font-size: 1.5rem;
+    line-height: 50px;
+    font-weight: 700;
+    color: #152039;
+    border-radius: 6px;
+}
+.btn--sub
+{
+    background-color: #6A6C84;
+    color: #e5e7eb;
+}
