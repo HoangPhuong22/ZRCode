@@ -166,6 +166,11 @@ a
 {
     width: 50rem;
 }
+.input.input[type='checkbox']
+{
+    font-size: 1.5rem;
+    color: #5aa5b9;
+}
 .input.input[type='text']:focus, 
 .input.input[type='email']:focus, 
 .input.input[type='password']:focus, 
@@ -877,7 +882,7 @@ form label
 {
     font-size: 1.5rem;
     padding: 10px 0;
-    display: block;
+    display: inline-block;
     color: #737373;
 }
 .input
@@ -896,9 +901,7 @@ form label
 .login-submit .btn-submit
 {
     background-color: #152039;
-    padding: 15px 20px;
     border-radius: 10px;
-    line-height: 1.4;
 }
 .login-submit .forget a
 {
